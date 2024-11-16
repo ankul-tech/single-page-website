@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: url(../images/waves.jpg) no-repeat top center fixed;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-container {
+    width: 1000px;
+    margin: auto;
+}
+
+.top-section {
+    width: 1000px;
+    height: 650px;
+    background: url(../images/headerbg.jpg) 10% 0 no-repeat fixed;
+    border-bottom: 10px solid #0083ce;
+}
+
+.pattern {
+    width: 100%;
+    height: 100%;
+    background: url(../images/gridtile.png) repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pattern h2 {
+    color: white;
+    text-transform: uppercase;
+    width: 400px;
+    border: 1px solid #27E0FF;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 20px 0px;
+    border-left: none;
+    border-right: none;
+    font-weight: 400;
+}
+
+nav {
+    width: 655px;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    border-right: 1px solid white;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+section {
+    width: 100%;
+    height: 931px;
+}
+
+#home .top-container {
+    width: 100%;
+    height: 321px;
+    background: #fcf5ed url(../images/3.jpg) center center no-repeat fixed;
+    background-size: 80% auto;
+}
+
+#about-us .top-container {
+    width: 100%;
+    height: 321px;
+    background: #fcf5ed url(../images/1.jpg) center center no-repeat fixed;
+    background-size: 80% auto;
+}
+
+#services .top-container {
+    width: 100%;
+    height: 321px;
+    background: #fcf5ed url(../images/2.jpg) center center no-repeat fixed;
+    background-size: 80% auto;
+}
+
+#training .top-container {
+    width: 100%;
+    height: 321px;
+    background: #fcf5ed url(../images/banner-7.jpg) center center no-repeat fixed;
+    background-size: 80% auto;
+}
+
+#contact .top-container {
+    width: 100%;
+    height: 321px;
+    background: #fcf5ed url(../images/4.jpg) center center no-repeat fixed;
+    background-size: 80% auto;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay>div {
+    border: 5px solid #FFF;
+    font-size: 26px;
+    color: #FFF;
+    font-weight: bold;
+    padding: 2px
+}
+
+.bottom-container {
+    width: 100%;
+    height: 610px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 60px 10px;
+}
+
+.bottom-container p {
+    color: #182D55;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.bottom-container h6 {
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 55px;
+    cursor: pointer;
+    color: #182D55;
+}
+
+.bottom-container-bottom {
+    width: 100%;
+    height: 610px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 60px 10px;
+}
+
+.bottom-container-bottom p {
+    color: #182D55;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.6);
+    padding-bottom: 20px;
+    font-size: 26px;
+    color: #FFF;
+    text-align: center;
+    line-height: 55px;
+    cursor: pointer;
+}
+
+footer h6 {
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 0px;
+    font-weight: normal;
+}
